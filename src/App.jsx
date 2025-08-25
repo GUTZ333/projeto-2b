@@ -9,12 +9,14 @@ function App() {
         <section className="produtos">
           {/* Produto 1 */}
           <div className="card">
+            <img src={TenisNikeIcon} alt="tenis nike" className="img-prod" />
             <h2>Tenis Nike</h2>
             <p className="desc">Um lindo tenis da Nike</p>
             <p className="preco">R$ 699,90</p>
             <div className="avaliacao">★ ★ ★ ★ ☆</div>
-            <img src={TenisNikeIcon} alt="tenis nike" className="img-prod" />
+            <div className="off">-15% </div>
           </div>
+          
         </section>
         <section className="produto-destaque"></section>
         <footer></footer>
